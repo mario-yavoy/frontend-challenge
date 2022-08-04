@@ -1,0 +1,16 @@
+.main-container {
+  background-color: #F7F7FC;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+
+  .left-container {
+    flex: 1 1 60%;
+  }
+
+  .right-container {
+    background-color: white;
+    flex: 1 1 40%;
+  }
+}

@@ -100,8 +100,42 @@
             ],
             "scripts": []
           }
+        },
+        "cypress-run": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "frontend-dev-test:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "frontend-dev-test:serve:production"
+            }
+          }
+        },
+        "cypress-open": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "watch": true,
+            "headless": false
+          }
+        },
+        "e2e": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "frontend-dev-test:serve",
+            "watch": true,
+            "headless": false
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "frontend-dev-test:serve:production"
+            }
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a4563deb-f8ea-41c6-87b8-d79522143562"
   }
 }

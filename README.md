@@ -1,27 +1,34 @@
 # FrontendDevTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 14.1.1. con el fin de poner a prueba las habilidades técnicas del desarrollador.
 
-## Development server
+**Nota:** La fuente que se utilizará es [Mulish](https://fonts.google.com/specimen/Mulish) y las imágenes ya se encuentran dentro de la carpeta `assets/img`.
+## Pasos
+Para participar en este desafío, por favor seguir los siguientes pasos:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Clonar este repositorio.
+1. Crear un repositorio privado con el mismo nombre en tu cuenta personal de GitHub. (no fork)
+1. Agregar un segundo `remote` a tu copia local y publicar (`push`) la rama master.
+1. Crear una nueva rama 'feature' en donde trabajarás tus cambios.
+1. Agregar el o los componentes necesarios para crear la interfaz solicitada.
+1. Haz los commits necesarios mientras vayas avanzando en el desafío (Se espera más de un commit). Te recomendamos usar la especificación de [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). 
+1. Publica tus cambios a tu repositorio en la rama que creaste anteriormente.
+1. Crea un 'pull request' a la rama master de tu repositorio.
+1. Invita a @mario-yavoy a tu repositorio privado.
+1. Envía el enlace de tu 'pull request' para indicar que el desafío ha sido completado.
 
-## Code scaffolding
+## Configuración
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Asegurate de tener instalado Node versión 14.15.0 o posterior.
 
-## Build
+Instalar los paquetes.
+```shell script
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Uso
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Correr la aplicación.
+```shell script
+npm start
+```
